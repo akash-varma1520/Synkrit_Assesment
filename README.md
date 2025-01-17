@@ -70,9 +70,16 @@ Create a config.json file in the root directory and add your Reddit and Groq API
     }
 }
 
-4.Verify the configuration:
-Run the following to ensure all dependencies are correctly set up:
-python -m bot.auth
+4.Set the following environment variables by running these commands:
+
+$env:REDDIT_CLIENT_ID = "iS2zAEt74uzoMJ8HGftd0Q"
+$env:REDDIT_CLIENT_SECRET = "AS7iqK7TOzH-nIbGcRJbjecs3-znig"
+$env:REDDIT_USER_AGENT = "Groq AI Bot by /u/Leather-Zucchini-852"
+$env:REDDIT_USERNAME = "Leather-Zucchini-852"
+$env:REDDIT_PASSWORD = "Akash123"
+$env:GROQ_API_KEY = "your_groq_api_key"
+Replace "your_groq_api_key" with your actual Groq API key.
+These environment variables will be used by the Python script to interact with the Reddit API and Groq API.
 
 ## Usage
 
