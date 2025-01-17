@@ -1,4 +1,4 @@
-### Synkrit AI Assignment
+## Synkrit AI Assignment
 
 This repository contains a modular bot that integrates with Reddit and Groq AI APIs to automate content generation and posting, as well as commenting on trending posts. The project is organized into distinct components for clarity and maintainability.
 
@@ -47,7 +47,7 @@ Installation
 
 1.Clone the repository:
 
-git clone https://github.com/your-repo/synkrit-ai-assignment.git
+git clone https://github.com/akash-varma1520/Synkrit_Assesment.git
 cd Synkrit_AI_Assignment
 
 2.Install dependencies:
